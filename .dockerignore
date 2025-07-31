@@ -1,0 +1,5 @@
+# .dockerignore
+public/storage
+node_modules
+.env
+.git

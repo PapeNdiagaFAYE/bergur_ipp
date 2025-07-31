@@ -84,6 +84,10 @@ Route::get('/showCommande/{id}',[\App\Http\Controllers\CommandeController::class
 
     Route::get('/statistiques', [\App\Http\Controllers\StatistiqueController::class, 'index'])->name('statistiques');
 
+
+
+    Route::get('/ci-test', fn() => 'CI/CD is working!');
+
 });
 
 

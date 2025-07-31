@@ -8,6 +8,8 @@ services:
     working_dir: /var/www
     volumes:
       - .:/var/www
+    depends_on:
+      - database  
     networks:
       - ipp_vp
 
@@ -28,7 +30,7 @@ services:
     image: postgres:15
     container_name: ipp-burger-db
     environment:
-      POSTGRES_DB: burger_ipp
+      POSTGRES_DB: ipp_burger
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: passer
     ports:

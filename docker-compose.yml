@@ -3,7 +3,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: abdou277/laravel_image:latest
+    image: papendiagafaye/laravel_image:latest
     container_name: laravel-app
     working_dir: /var/www
     volumes:

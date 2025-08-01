@@ -15,7 +15,7 @@
                         <tr>
                             <th>Burger</th>
                             <th>Quantité</th>
-                            <th>Prix Unitaire</th>
+                            <th>Prix unitaire</th>
                             <th>Total</th>
                         </tr>
                     </thead>
